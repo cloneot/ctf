@@ -1,6 +1,6 @@
 import angr
 
-proj = angr.Project('../c.exe', load_options = {'auto_load_libs': False})
+proj = angr.Project('./c.exe', load_options = {'auto_load_libs': False})
 
 find_addr = 0x00000000004016EF
 avoid_addr = [0x0000000000401598, 0x00000000004016A7]
