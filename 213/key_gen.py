@@ -46,14 +46,14 @@ text2 = text2.split('/')
 print(text2)
 # ['üüü', '$D$$', '\x0c', '\x0c', '»ÛÛ»', '\x0c', 'ù\x99ù', '\x81\x81', "'''", 'Á', 'üüü', '$D$$', '\x0c', '\x0c', '»ÛÛ»', '\x0c', 'ù\x99ù', '\x81\x81', "'''", 'Á', 'i\t\t', '\x81\x81', 'ØØØ', '\x88è', '»ÛÛ»', '»ÛÛ»', '\x0c', '\x88è', 'ù\x99ù', '\x81\x81', "'''", 'Á', '¥¥', '\x06f', 'ØØØ', '_', '\x88è', '\x06f', '_', '\x0c', 'ù\x99ù', '\x81\x81', "'''", '\xa0À\xa0À\xa0\xa0']
 
-flag = ''
+key = ''
 for s in text2:
 	cnt = 0
 	for c in string.printable:
 		if s == f3(c):
-			flag += c
+			key += c
 			cnt += 1
 	assert cnt == 1
 
-print(flag)
+print(key)
 # Sleeperio Sleeperio Disappeario Instanterio!
