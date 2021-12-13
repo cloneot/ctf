@@ -1,3 +1,4 @@
 1. ida에서 확인했을 때, hs_main 함수의 마지막에서 shutdownHaskellAndExit 함수가 호출됨
 2. Haskell decompiler(https://github.com/gereeter/hsdecomp#installation)를 찾아서 디컴파일
-3. 정규식으로 파싱
+3. sublime text에서 변수명 등을 변경해서 코드 보기 쉽게 만들기
+4. 정규식으로 파싱
